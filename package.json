@@ -1,0 +1,12 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "main": "/app.js",
+  "scripts": {
+   "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Mauro G Bueno",
+  "license": "MIT",
+  "description": "Lista de tarefas - capacitacao WEB"
+}

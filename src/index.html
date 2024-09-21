@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <div>
+        <container>
+            <form id="task-form" method="POST" action="/">
+                <div class="input-group">
+                    <input type="text" id="task-input" name="task" placeholder="" required>
+                    <button type="submit">Adicionar</button>
+                </div>
+            </form>
+        </container>
+    </div>
+
+    <ul id="lista-tarefas">
+        <!-- As tarefas serão renderizadas aqui -->      
+    </ul>
+
+    <script src="lista.js"></script>
+</body>
+</html>

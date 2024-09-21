@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+
+container{
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.input-group {
+    display: flex;  /* Faz o input e o botão ficarem lado a lado */
+    align-items: center;
+    
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;  /* Bordas arredondadas à esquerda */
+    outline: none;
+
+}
+
+
+button:hover {
+    background-color: silver;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+
+/* Estilo para o botão Adicionar*/
+button { 
+    padding: 11px;
+    background-color: #5cb85c;
+    color: white;
+    border: 1px solid #5cb85c;
+    border-radius: 0 5px 5px 0;  /* Bordas arredondadas à direita */
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* Estilo para o contêiner da lista de tarefas */
+#lista-tarefas {
+    list-style-type: none; /* Remove as marcas de lista */
+    width: 400px;   
+    align-items: center;
+    border-radius: 0 10px 10px 0;  /* Bordas arredondadas à direita */
+}
+
+/* Estilo para cada item da tarefa */
+.task-item {
+    display: flex;               /* Usar flexbox para o item da tarefa */
+    justify-content: space-between; /* Espaçar o texto e os botões */
+    align-items: center;        /* Alinhar itens verticalmente ao centro */
+    margin: 10px 0;            /* Margem entre os itens da lista */
+    padding: 10px;             /* Espaçamento interno */
+    border: 1px solid #ccc;    /* Borda ao redor do item */
+    border-radius: 4px;        /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Cor de fundo suave */
+}
+
+
+
+/* Estilo para o contêiner do checkbox e texto */
+.task-container {
+    display: flex;              /* Usar flexbox */
+    align-items: center;       /* Alinhar itens verticalmente ao centro */
+}
+
+/* Estilo para o checkbox */
+input[type="checkbox"] {
+    margin-right: 14px; /* Espaço entre o checkbox e o texto */
+    font-size: 50px;
+    cursor: pointer; 
+    border-radius: 5px 5px 5px 5px;  /* Bordas arredondadas à direita */
+}
+
+
+
+/* Estilo para o contêiner dos botões */
+.button-container {
+    display: flex;              /* Usar flexbox para os botões */
+    gap: 10px;                 /* Espaço entre os botões */
+}
+
+
+/* Estilo para os botões dos itens */
+.item-action {
+    background: none;          /* Sem fundo */
+    border: none;              /* Sem borda */
+    cursor: pointer;           /* Cursor em forma de ponteiro */
+    padding: 5px;             /* Espaçamento interno */
+    border-radius: 10px 10px 10px 10px; /* Bordas arredondadas à direita */
+}
+
+/* Estilo para as imagens dos ícones */
+.icon-image {
+    width: 20px;              /* Largura dos ícones */
+    height: 20px;             /* Altura automática para manter a proporção */
+}
+
+
+.strikethrough {
+    text-decoration: line-through; /* Risca o texto */
+}
+
